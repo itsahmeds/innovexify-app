@@ -19,9 +19,9 @@ class ShiftFactory extends Factory
         $i = fake()->unique()->randomElement([0, 1, 2]);
 
         $shifts = [
-            ['name' => 'Shift Pagi', 'start_time' => '07:00', 'end_time' => '15:00'],
-            ['name' => 'Shift Sore', 'start_time' => '15:00', 'end_time' => '23:00'],
-            ['name' => 'Shift Malam', 'start_time' => '23:00', 'end_time' => '07:00'],
+            ['name' => 'Morning Shift', 'start_time' => '07:00', 'end_time' => '15:00'],
+            ['name' => 'Afternoon Shift', 'start_time' => '15:00', 'end_time' => '23:00'],
+            ['name' => 'Night Shift', 'start_time' => '23:00', 'end_time' => '07:00'],
         ];
 
         return $shifts[$i];

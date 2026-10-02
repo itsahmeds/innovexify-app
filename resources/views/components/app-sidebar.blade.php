@@ -37,7 +37,7 @@
 >
     {{-- Brand --}}
     <a href="{{ $isAdmin ? route('admin.dashboard') : route('home') }}" wire:navigate.hover class="ds-sb-brand">
-        <div class="ds-sb-mark">P</div>
+        <div class="ds-sb-mark">I</div>
         <span class="ds-sb-brand-text">{{ config('app.name', 'Attendance App') }}</span>
     </a>
 

@@ -10,6 +10,18 @@ I built this because "just mark yourself present on the sheet" stops working the
 
 It's set up for Pakistan out of the box: CNIC on employee records, province-level regions, local holidays, English everywhere.
 
+## screenshots
+
+![Admin dashboard](screenshots/admin-dashboard.png)
+
+![Attendance log](screenshots/admin-attendance.png)
+
+<p>
+  <img src="screenshots/mobile-home.png" width="260" alt="Mobile home">
+  <img src="screenshots/mobile-history.png" width="260" alt="Attendance history">
+  <img src="screenshots/mobile-leave.png" width="260" alt="Leave request">
+</p>
+
 ## what it does
 
 ```
